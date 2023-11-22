@@ -1,0 +1,874 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>allinone</title>
+    <style>
+        body {
+            margin:0;
+            padding: 0;
+			background-image:linear-gradient(135deg,black,red,blue,orange,white,black,green,yellow,red);
+        }
+
+        header {
+            position: absolute;
+            font-family: 'Roboto', sans-serif;
+            font-size: 30px;
+            top: 0;
+            width: 100%;
+            height: 30px;
+            text-align: center;
+            padding: 5px;
+            
+            background-color: lightpink;
+        }
+		.all .instagram-media{
+			float:left;
+			
+		}
+       
+		
+		
+		
+		nav{
+		margin:0;
+		margin-top:35px;
+        position:absolute;
+		background-image:linear-gradient(60deg,black,gray,gray,black);
+        background-image: linear-gradient(to bottom,lightpink,lightblue);
+		padding:5px;
+		width:100%;
+		
+		}
+		nav a{
+		font-size:18px;
+		text-decoration:none;
+		color:white;
+		border:2px solid black;
+		border-radius:1px;
+		background-color:green;
+		padding:1px;
+		margin:1px;
+		position:relative;
+		}
+		nav a:hover{
+		background-color:lightblue;
+		color:black;
+		}
+		.dropdown-content
+		{
+		display:none;
+		position:absolute;
+		
+		
+		}
+		.dropdown{
+		display:inline-block;
+		position:relative;
+		padding:10px;
+		margin:2px;
+		}
+		.dropdown:hover .dropdown-content{
+		padding:5px;
+		display:block;
+		}
+		.amazon figure{
+		width:150px;
+		box-shadow:0 0 8px black;
+		
+		margin:5px;
+		
+		float:left;
+		}
+		.amazon figure img{
+		width:140px;
+		padding:5px;
+		
+		}
+		
+		.banner figure{
+		width:100%;
+		display:inline-block;
+		margin:0;
+		padding:0;
+		}
+		.banner figure img{
+		width:100%;
+		height:150px;
+		
+		
+		}
+		h1{
+		text-align:center;
+		font-size:30px;
+		font-family:'roboto',sans-serif;
+		}
+		
+		.youtube iframe p{
+		background-color:white;
+		color:black;
+		}
+		
+		.youtube {
+		width:150px;
+		box-shadow:0 0 10px black;
+		margin:5px;
+		
+		float:left;
+		.amazon{
+		border:2px solid black;
+		box-shadow:5px;
+		width:100vh;
+		}
+		}
+		.amazon iframe{
+		width:150px;
+		padding:5px;
+		}
+		.scroll-container {
+            width:100%;
+            overflow-x:scroll;
+            white-space: nowrap;
+        }
+
+        .scroll-content{
+			width:2000px;
+		}
+        
+		.scroll-container1{
+            width:100%;
+            overflow-x: auto;
+            white-space: nowrap;
+        }
+
+
+        .scroll-content1 {
+            width:5000px; 
+        }
+        
+        
+        
+			
+			.heading{font-size:30px;
+			font-family:'roboto',sans-serif;
+			
+			text-align:center;
+			
+			}
+			
+			
+			.heading1{
+			
+			font-size:30px;
+			font-family:'roboto',sans-serif;
+			} 
+			.heading2{
+			
+			font-size:30px;
+			font-family:'roboto',sans-serif;
+			
+			} 
+			.heading3{
+			font-size:30px;
+			font-family:'roboto',sans-serif;
+			color:red;
+			
+			} 
+			
+.footer
+{
+padding:5px;
+background-color:gray;
+text-align:center;
+width:100%;
+}
+.amazon figure{
+background-color:violet;
+color:blue;
+}
+.amazon button{
+background-color:orange;
+}
+.container {
+     width:100%;
+     margin-left:0;
+     display:table;
+	 background-color:darkblue;
+	 
+}
+.width-25{
+padding:10px;
+float:left;
+
+}
+.width-25 li a{
+text-decoration:none;
+font-size:18px;
+color:white;
+font-family:'roboto',sans-serif;
+}
+.width-25 li i{
+text-decoration:none;
+color:white;
+}
+.amazon .b{
+background-color:green;
+}
+.menu li a:hover{
+background-color:black;
+} 
+.width-25 h2:hover{
+background-color:white;
+color:black;
+text-decoration:none;
+}
+.fa a:hover{
+background-color:white;
+} 
+.welcome{
+padding:5px;
+
+margin-top:60px;
+text-align:center;
+background-image:url('naresh.jpg');
+background-repeat:repeat;
+background-position: top;
+
+
+}
+.welcome h2{
+font-family:'bold',sans-serif;
+font-size:30px;
+color:black;
+}
+.welcome p{
+font-family:'bold',sans-serif;
+font-size:20px;
+color:darkblue;
+}
+.instagram-media{
+		display:inline-block;
+		}
+
+.n{
+box-shadow:2px;
+background-color:red;
+}
+.instagram{
+color:pink;
+}
+
+
+.facebook{
+color:blue;
+}
+input[type=search]{
+	border-color: blue;
+	color:black;
+	font-size: 16px;
+}
+.btn{
+	background-color: blue;
+	color: black;
+	font-size: 16px;
+}
+.dropdown label{
+	color:crimson;
+	font-size: 20px;
+	font-family:'Times New Roman', Times, serif;
+	font-style: italic;
+}
+.facebook{
+	background-color: white;
+	color:blue;
+	height: 50px;
+}
+.phonepay
+{
+	color:black;
+	background-color:blueviolet ;
+	height:50px;
+}
+.payt{
+	color:blue;
+	text-decoration: none;
+	background-image:url('https://pwebassets.paytm.com/commonwebassets/paytmweb/header/images/logo.svg');
+	background-repeat: repeat;
+	height: 50px;
+}
+.messh{
+	background-image:linear-gradient(rgb(235, 156, 168),rgb(222, 236, 240));
+	height: 50px;
+	background-repeat: repeat;
+}
+.instagram{
+	background-color: pink;
+	color:white;
+	height: 50px;
+}
+.heading4{
+	background-color: rgb(239, 10, 48);
+	color:white;
+	height: 50px;
+
+}
+.social{
+	width: 40px;
+	height:40px ;
+}
+		
+</style>
+</head>
+
+<body>
+    <header>ALl IN ONE</header>
+
+<div>
+	<nav>
+	<div class="dropdown">
+            <a href="#">E-commerce</a>
+            <div class="dropdown-content">
+                <a href="https://www.amazon.in">amazon</a>
+                <a href="https://flipkart.com">flipkart</a>
+                <a href="https://meesho.com">meesho</a>
+			    <a href="https://myntra.com">myntra</a>
+			</div>
+	</div>
+	<div class="dropdown">
+            <a href="#">social-media</a>
+            <div class="dropdown-content">
+                <a href="https://www.youtube.com">youtube</a>
+                <a href="https://www.instagram.com/?hl=en">instgram</a>
+                <a href="https://facebook.com">facebook</a>
+			</div>
+
+	</div>
+	<div class="dropdown">
+            <a href="#">digital-payment</a>
+            <div class="dropdown-content">
+                <a href="https://www.paytm.com">paytm</a>
+                
+                <a href="https://www.phonepay.com">phonepay</a>
+				<a href="https://www.pay.google.com">googlepay</a>
+			</div>
+
+	</div>
+	<div class="dropdown">
+            <a href="#">stock-market</a>
+            <div class="dropdown-content">
+                <a href="https://www.grow.com">grow</a>
+                <a href="https://www.upstocks.com">upstocks</a>
+                <a href="https://www.binomo.com">binomo</a>
+			</div>
+
+	</div>
+	<div class="dropdown">
+            <a href="#">medicine</a>
+            <div class="dropdown-content">
+                <a href="https://www.medicover.com">medicover</a>
+                <a href="https://www.appolo.com">appolo</a>
+                <a href="https://www.narayanahospital.com">narayana</a>
+			</div>
+
+	</div>
+	<div class="dropdown">
+	    <form action="search" method="get">
+        <label for="search">Search:</label>
+        <input type="search" id="search" name="q" placeholder="Type your text...">
+        <button class="btn" type="submit">Search</button>
+    </form>
+	</div>
+	<div class="dropdown">
+            <a href="games.html">games</a>
+            
+			
+
+	</div>
+	<div class="dropdown">
+            <a href="#">communication apps</a>
+            <div class="dropdown-content">
+                <a href="https://web.whatsapp.com">whatsapp</a>
+                <a href="https://www.telegram.com">telegram</a>
+                <a href="https://www.snapchat.com">snapchat</a>
+			</div>
+
+	</div>
+	
+	<div class="dropdown">
+            <a href="#">other</a>
+            <div class="dropdown-content">
+                <a href="https://www.sakshi.com">sakhi news</a>
+                <a href="https://www.ibomma.com">ibomma</a>
+                <a href="https://www.mobcub.com">mobcub</a>
+			</div>
+
+	</div>
+	<div class="dropdown">
+            <a class="n" href="login.html">login/signup</a>
+			
+
+	
+	</nav>
+</div><br>
+<div class="welcome">
+   <h2>WELLCOME TO ALL IN ONE WEBSITE  </h2>
+  <p> social media website, E-commerce , digital-payment apps ,
+   stock-marketing websites ,medical related apps and cloning apps are available</p>
+</div>
+<div class="amazon">
+	<h1 class="messh">AMAZON</h1>
+	<div class="scroll-container">
+	<div class="scroll-content">
+		<figure>
+			<image src="https://m.media-amazon.com/images/I/61XhCNuPaZL._SY550_.jpg" alt="black shirt">
+			<figcaption>cotton anarkali kurta<br>959 rupees only<br>rating:4.3*<br>
+			 <button><a href="https://amzn.eu/d/eNQnQpH">buy now</button>
+			<button class="b"><a href="https://amzn.eu/d/eNQnQpH" alt="#">Add2Cart</button>
+			</figcaption>
+		   </figure>
+		   <figure>
+			<img src="https://m.media-amazon.com/images/I/71NmlII6aSL._SY679_.jpg" alt="black shirt">
+			<figcaption>women cutton kurthi<br>2099 rupees only<br>rating:4.0*<br>
+			<button><a href="https://amzn.eu/d/eNQnQpH">buy now</a></button>
+			<button class="b"><a href="https://amzn.eu/d/eNQnQpHa">add2cart</a></button>
+			</figcaption>
+		   </figure>
+		   <figure>
+			   <img src="https://m.media-amazon.com/images/I/9127Za2yeiL._SX569_.jpg" alt="black shirt">
+			   <figcaption>mens casual shirt<br>699 rupees only<br>rating:4.0*<br>
+			   <button><a href="https://amzn.eu/d/4o19sUr">buy now</a></button>
+			   <button class="b"><a href="https://amzn.eu/d/4o19sUr">add2cart</a></button>
+			   </figcaption>
+			   </figure>
+		   <figure>
+			   <img src="black.jpeg" alt="black shirt">
+			   <figcaption>cotton casual shirt<br>649 rupees only<br>rating:4.0*<br>
+			   <button><a href="https://amzn.eu/d/4o19sUr">buy now</a></button>
+			   <button class="b"><a href="https://amzn.eu/d/4o19sUr">Add2Cart</a></button>
+			   </figcaption>		
+		   </figure>
+		   <figure>
+			   <img src="https://m.media-amazon.com/images/I/61DGAlvxRLL._SY550_.jpg" alt="black shirt">
+			   <figcaption>black shirt<br>436 rupees only<br>rating:4.3*<br>
+			   <button><a href="">buy now</a>/button>
+			   <button class="b"><a href=Add2Cart></a></button>
+			   </figcaption>
+		   </figure>
+		   <figure>
+			   <img src="https://m.media-amazon.com/images/I/51p3I6PqN6L._SY500_.jpg" alt="black shirt">
+			   <figcaption>denim casual shirt<br>649 rupees only<br><rating:4 class="2"></rating:4>*<br>
+			   <button><a href="https://amzn.eu/d/3pcZ86e">buy now</a></button>
+			   <button class="b"><a href="https://amzn.eu/d/3pcZ86e">Add2Cart</a></button>
+			   </figcaption>
+		   </figure>
+		   <figure>
+			<img src="https://m.media-amazon.com/images/I/71ShBw4g6GL._SX466_.jpg" alt="black shirt">
+			<figcaption>dhruvi trendz shirt<br>299 rupees only<br>rating 3.8'*<br>
+			 <button><a href="https://amzn.eu/d/8MhhzNb" >buy now</a></button><br>
+			<button class="b"><a href="https://amzn.eu/d/8MhhzNb"></a>Add2Cart</button>
+			</figcaption>
+		   </figure>
+		   
+		   <figure>
+			   <img src="https://m.media-amazon.com/images/I/6138QV5CO-L._SY550_.jpg" alt="black shirt">
+			   <figcaption>male casual pant<br>1437 rupees only<br>rating:4.3*<br>
+			   <button><a href="https://amzn.eu/d/3t2zDB2dd">buy now</a></button>
+			   <button class="b"><a href="https://amzn.eu/d/3t2zDB2">Add2Cart</a></button>
+			   </figcaption>		
+		   </figure>
+		   <figure>
+			<img src="https://m.media-amazon.com/images/I/6138QV5CO-L._SY550_.jpg" alt="black shirt">
+			<figcaption>male casual pant<br>1437 rupees only<br>rating:4.3*<br>
+			<button><a href="https://amzn.eu/d/3t2zDB2dd">buy now</a></button>
+			<button class="b"><a href="https://amzn.eu/d/3t2zDB2">Add2Cart</a></button>
+			</figcaption>		
+		</figure>
+		   <figure>
+			   <img src="https://m.media-amazon.com/images/I/71ZI9PfPnaL._SY550_.jpg" alt="black shirt">
+			   <figcaption>fullsleevs checks shirt<br>499 rupees only 4.2*rating<br>
+			   <button><a href="https://amzn.eu/d/8jgz56z">buy now</a></button>
+			   <button class="b"><a href="https://amzn.eu/d/8jgz56z">add2cart</a></button>
+			   </figcaption>
+		   </figure>
+		   <figure>
+			   <img src="https://m.media-amazon.com/images/I/71SajCEdvTL._SY550_.jpg" alt="black shirt">
+			   <figcaption>black shirt<br>436 rupees <br>rating:4.3*<br>
+			   <button><a href="https://amzn.eu/d/9vYKaVj">buy now</a></button>
+			   <button class="b"><a href="https://amzn.eu/d/9vYKaVj">Add2Cart</a></button>
+			   </figcaption>
+		   </figure>
+		   <figure>
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAd3TWI03xUali-kORt3UE_HyZKU9B_3Q7Kw&usqp=CAU">
+			<figcaption>REDIRECT 2 AMAZON<br>FOR MORE>>>><BR>
+			 <button><a href="https://www.amazon.in">REDIRECT2AMAZON</button>
+			
+			</figcaption>
+		   </figure>
+	</div>
+	</div>
+	</div>
+	
+   
+<div class="amazon">
+	<h1 class="heading4">YOUTUBE</h1>
+	<div class="scroll-container">
+	  <div class="scroll-content">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/Xqqf_5CxNao?si=eS_knOALaUX-g1Jt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/xMSNJ1vgXCk?si=ZKPq4jv5JZ_Oad4V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/Bx7TJD5XUBw?si=9zPAczsH0XUhT-hN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/qH4v1L8WkNA?si=um5ALuJze8Av3fIo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/YEgbHLYlnZo?si=ELQ-y1eaaYzAActV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/HGTJBPNC-Gw?si=ubmUd3PJS7QAJqVz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/ttdlsYSuPG8?si=EMJe2CWEi_Jm8Mmm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/Z6RnmdGdlUQ?si=yUjaKNq6L21jgEwB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	   <iframe width="560" height="315" src="https://www.youtube.com/embed/-WYtffMq0K8?si=5sSXVtZgI8bVak78" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	   <iframe width="560" height="315" src="https://www.youtube.com/embed/GrgUwGqgPdQ?si=L_lwqRC3QcU5I6Mm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/rzL919MX-u8?si=nsSiKbFyHPRx97yb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/JTpDCoxZdv8?si=vMdjtEKWK4WmC6gS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	   <iframe width="560" height="315" src="https://www.youtube.com/embed/SVD_5gzXzaw?si=bP7chKc7SbU2QwsK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	   <iframe width="560" height="315" src="https://www.youtube.com/embed/kMMzzRscICY?si=CN2eKnnOlUds5i7w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	  </div>
+	</div>
+  </div>	
+  <div class="all">
+  <h1 class="facebook">FACEBOOK</h1>
+   <div class="scroll-container">
+	 <div class="scroll-content">
+	  <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FA2ZCinemaOfficial%2Fvideos%2F764407168626585%2F&show_text=true&width=560&t=0" width="560" height="429" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+	  <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FA2ZCinemaOfficial%2Fvideos%2F186440273850505%2F&show_text=true&width=560&t=0" width="560" height="429" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+	  <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fzeetelugu%2Fvideos%2F1080990065802528%2F&show_text=true&width=560&t=0" width="560" height="429" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+	  <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fzeetelugu%2Fvideos%2F1024012291844585%2F&show_text=true&width=560&t=0" width="560" height="429" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+	  <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fravitejamassmaharajj%2Fposts%2Fpfbid0r4qLfwz4EQ8DXDF4VvMpcy593fTuWH4iMhskov1CAh2GRyDwwqLnHXrx6b2cpQzzl&show_text=true&width=500" width="500" height="634" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+	  <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FNobodySurf%2Fvideos%2F361273939675496%2F&show_text=true&width=380&t=0" width="380" height="591" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+	  <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fchessbaseindia%2Fvideos%2F126284842667705%2F&show_text=true&width=560&t=0" width="560" height="429" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+	  <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FEntertainmentTheaterOfficial%2Fvideos%2F353617236813051%2F&show_text=true&width=560&t=0" width="560" height="429" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+	  <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F100085774650792%2Fvideos%2F335485478895008%2F&show_text=true&width=476&t=0" width="476" height="591" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+	  <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FETVPlusIndia%2Fvideos%2F769367190498311%2F&show_text=true&width=560&t=0" width="560" height="429" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+	</div>
+   </div>
+  </div>
+  <div class="all">
+  <h1 class="instagram">INSTAGRAM</h1>
+   <div class="scroll-container1">
+	 <div class="scroll-content1">
+  
+	   
+	   <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/CywL9f5yr4O/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/reel/CywL9f5yr4O/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/reel/CywL9f5yr4O/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Film Combat (@thefilmcombat)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+	   <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/CzBxIYPt64D/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/reel/CzBxIYPt64D/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/reel/CzBxIYPt64D/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Shahrukh (@ishahrukhattar)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+	   <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/CzTYx3Fpx2f/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/reel/CzTYx3Fpx2f/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/reel/CzTYx3Fpx2f/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Ajinkya Raut (@ajinkyathoughts)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+	   <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/CwM4AgtpFgc/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/reel/CwM4AgtpFgc/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/reel/CwM4AgtpFgc/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Sidhu Vasupalli (@vasupalli_sidhu)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+	   <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/CyvOGYjRCTu/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/reel/CyvOGYjRCTu/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/reel/CyvOGYjRCTu/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by 𝐕𝐢𝐣𝐚𝐲𝐚𝐰𝐚𝐝𝐚 𝐈𝐭𝐬𝐞𝐥𝐟 𝐌𝐞𝐚𝐧𝐬 𝐚 𝐑𝐨𝐲𝐚𝐥𝐢𝐭𝐲❤️🌎✨ (@_we_r_vijayawadians_)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+	   <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/Cx1mwMpvbRA/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/reel/Cx1mwMpvbRA/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/reel/Cx1mwMpvbRA/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by VS Varathan Rajan (@vs_rajan_61)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+	   <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/CzpVZ9TSnwM/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/reel/CzpVZ9TSnwM/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/reel/CzpVZ9TSnwM/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by 𝐄𝐌𝐎𝐓𝐈𝐎𝐍𝐀𝐋 𝐐𝐄𝐄𝐍 (@emotinal_qeen)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+	   <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/CzOWFmdpSut/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/reel/CzOWFmdpSut/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/reel/CzOWFmdpSut/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Saipallavi FC (@saipallavi_diehard_fans)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+	   <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/Cyiy9jGJ0tv/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/reel/Cyiy9jGJ0tv/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/reel/Cyiy9jGJ0tv/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Yerriswami Swami (@yerriswami.swami.98)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+	</div>
+   </div>
+  </div>
+		
+<div class="amazon">
+<h1 class="phonepay">PHONEPAY</h1>
+<div class="scroll-container">
+<div class="scroll-content">
+<figure>
+
+	 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfny_0zB-M0eTJtoeeNn2ob1Dd2tPDKDakPNxd8FJMVQ&s" alt="black shirt">
+	 <figcaption>mobile recharge<br>299 rupees only/m<br>
+	 <button><a href="https://paytm.com/recharge" alt="#">recharge now</button>
+     
+	 </figcaption>
+</figure> 
+<figure>
+	
+	 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0E0tN9qxLL-C2NHpWzvWp_W2tGw_H0wJ4HfyXw8_d&s" alt="black shirt">
+	 <figcaption>pay you electricity bill here<br>100rupees off<br>
+	 <button><a href="https://paytm.com/electricity-bill-payment" alt="#">recharge now</button>
+     
+	 </figcaption>
+</figure> 
+<figure>
+	
+	 <img src="gas1.png">
+	  <figcaption>gas booking<br>299rupees off<br>
+	 <button><a href="https://paytm.com/cylinder-gas-recharge" alt="#">recharge now</button>
+     
+	 </figcaption>
+</figure> 
+<figure>
+	
+	 <img src="dt.png" alt="black shirt">
+	 <figcaption>dth recharge<br>299 rupees only/m<br>
+	 <button><a href="https://www.phonepay.com">dth-recharge</a></button>
+	 </figcaption>
+</figure> 
+<figure>
+	
+	 <img src="flight.jpeg" alt="black shirt">
+	 <figcaption>mobile recharge<br>299 rupees only/m<br>
+	 <button><a href="https://paytm.com/recharge" alt="#">recharge now</button>
+     
+	 </figcaption>
+</figure>
+<figure>
+	
+	 <img src="https://assetscdn1.paytm.com/images/catalog/view_item/729997/1696910636390.png" alt="black shirt">
+	 <figcaption>mobile recharge<br>299 rupees only/m<br>
+	 <button><a href="https://paytm.com/bus" alt="#">recharge now</button>
+     
+	 </figcaption>
+</figure>
+
+</figure>
+<figure>
+	
+	 <img src="https://assetscdn1.paytm.com/images/catalog/view_item/729997/1696910636390.png" alt="black shirt">
+	 <figcaption>train tickets<br>299 rupees only/m<br>
+	 <button><a href="https://paytm.com/trains/" alt="#">recharge now</button>
+     
+	 </figcaption>
+</figure>
+</div>
+</div>
+
+<div class="amazon">
+	<h1 class="payt">PAYTM</h1>
+	 <div class="scroll-container">
+	   <div class="scroll-content">
+	<figure>
+		
+		 <img src="recharge.jpeg" alt="black shirt">
+		 <figcaption>mobile recharge<br>299 rupees only/m<br>
+		 <button><a href="https://paytm.com/recharge" alt="#">recharge now</button>
+		 
+		 </figcaption>
+	</figure> 
+	<figure>
+		
+		 <img src="electricity.jpeg" alt="black shirt">
+		 <figcaption>pay you electricity bill here<br>100rupees off<br>
+		 <button><a href="https://paytm.com/electricity-bill-payment" alt="#">pay electricity-bill</button>
+		 
+		 </figcaption>
+	</figure> 
+	<figure>
+		
+		 <img src="gas.jpeg" alt="black shirt">
+		 <figcaption>gas booking<br>299rupees off<br>
+		 <button><a href="https://paytm.com/cylinder-gas-recharge" alt="#">book cylinder</button>
+		 
+		 </figcaption>
+	</figure> 
+	<figure>
+		
+		 <img src="https://assetscdn1.paytm.com/images/catalog/view_item/105651/1554946474398.png" alt="black shirt">
+		 <figcaption><br>metro card recharge<br>flat 200 off<br>
+		 <button><a href="https://paytm.com/dth-recharge" alt="#">recharge now</button>
+		 
+		 </figcaption>
+	</figure> 
+	<figure>
+		
+		 <img src="https://assetscdn1.paytm.com/images/catalog/view_item/732358/1626446516255.png" alt="black shirt">
+		 <figcaption>open demate account<br>invest in stocks<br>
+		 <button><a href="https://paytmmoney.com/?utm_source=Paytm&utm_medium=Web_Banner_Icon&utm_campaign=PaytmMoney" alt="#">invest now</button>
+		 
+		 </figcaption>
+	</figure>
+	<figure>
+		
+		 <img src="https://assetscdn1.paytm.com/images/catalog/view_item/729998/1666185237748.png" alt="black shirt">
+		 <figcaption>paytm insuranrance<br>279 rupees off<br>
+		 <button><a href="https://paytminsurance.co.in/" alt="#">buy insurance</button>
+		 
+		 </figcaption>
+	</figure>
+		<figure>
+		
+		 <img src="https://assetscdn1.paytm.com/images/catalog/view_item/729997/1696910636390.png" alt="black shirt">
+		 <figcaption>all type bus tickets<br>flat 250 off<br>
+		 <button><a href="https://tickets.paytm.com/bus/" alt="#">recharge now</button>
+		 
+		 </figcaption>
+	</figure> 
+	<figure>
+		
+		 <img src="electricity.jpeg" alt="black shirt">
+		 <figcaption>pay you electricity bill here<br>100rupees off<br>
+		 <button><a href="https://paytm.com/electricity-bill-payment" alt="#">recharge now</button>
+		 
+		 </figcaption>
+	</figure> 
+	<figure>
+		
+		 <img src="https://assetscdn1.paytm.com/images/catalog/view_item/733295/1626259710574.png" alt="black shirt">
+		 <figcaption><br>book movie tickets<br>flat 100 off<br>
+		 <button><a href="https://paytm.com/movies" alt="#">recharge now</button>
+		 
+		 </figcaption>
+	</figure> 
+	
+	</figure> 
+	<figure>
+		
+		 <img src="flight.jpeg" alt="black shirt">
+		 <figcaption>book your flight<br>tickets<br>
+		 <button><a href="https://tickets.paytm.com/flights/" alt="#">book now</button>
+		 
+		 </figcaption>
+	</figure>
+	<figure>
+		
+		 <img src="https://assetscdn1.paytm.com/images/catalog/view_item/729997/1696910636390.png" alt="black shirt">
+		 <figcaption>all train tickets available<br>100 off<br>
+		 <button><a href="https://tickets.paytm.com/trains/" alt="#">book now</button>
+		 
+		 </figcaption>
+	</figure>
+</div>
+</div>
+</div><br>
+<div class="amazon">
+<h1 class="messh">MEESHO</h1>
+<div class="scroll-container">
+<div class="scroll-content">
+	<figure>
+		<img src="https://images.meesho.com/images/products/83163834/uf4p7_512.webp" alt="black shirt">
+		<figcaption>blue sweat shirt<br>251 rupees only<br>rating:3.8*<br>
+		 <button><a href="https://www.meesho.com/mens-blue-colorblocked-hooded-sweatshirt-on-sale/p/1dihmi">buy now</a></button>
+		<button class="b"><a href="https://www.meesho.com/mens-blue-colorblocked-hooded-sweatshirt-on-sale/p/1dihmi">Add2Cart</a></button>
+		</figcaption>
+	   </figure>
+	   <figure>
+		<img src="https://images.meesho.com/images/products/358795891/ho6lv_512.webp" alt="black shirt">
+		<figcaption>lahriya gown<br>550 rupees only<br>rating:4.3*<br>
+		<button><a href="https://www.meesho.com/new-georgette-lahriya-gown-for-women-with-dupatta/p/5xm8oj">buy now</a></button>
+		<button class="b"><a href="https://www.meesho.com/new-georgette-lahriya-gown-for-women-with-dupatta/p/5xm8oj">add2cart</a></button>
+		</figcaption>
+	   </figure>
+	   <figure>
+		   <img src="https://images.meesho.com/images/products/60422990/hhmpo_512.webp" alt="black shirt">
+		   <figcaption>371 rupees only<br>women kurta ratin:3.9*<br>
+		   <button><a href="https://www.meesho.com/trandy-border-yoke-placemet-printed-pink-flared-kurti/p/zz2oe">buy now</a></button>
+		   <button class="b"><a href="https://www.meesho.com/trandy-border-yoke-placemet-printed-pink-flared-kurti/p/zz2oe">Add2Cart</a></button>
+		   </figcaption>
+		   </figure>
+	   <figure>
+		<img src="https://images.meesho.com/images/products/328829956/hqtmi_512.webp" alt="black shirt">
+		<figcaption><br>sun glasses<br>137 rupees only<br>rating:4.2*<br>deal of the day<br>
+		   <button><a href="https://www.meesho.com/new-trendy-unisex-sunglasses-black-and-white-frame/p/5frytg">buy now</a></button>
+		   <button class="b"><a href="https://www.meesho.com/new-trendy-unisex-sunglasses-black-and-white-frame/p/5frytg">Add2Cart</a></button>
+		   </figcaption>		
+	   </figure>
+	   <figure>
+		   <img src="https://images.meesho.com/images/products/268651598/olbvf_512.webp" alt="black shirt">
+		   <figcaption><br>mi 9a/9i series pouch<br>170 rupees only<br>rating:4.2*<br>50% off <br>
+		   <button><a href="https://www.meesho.com/jitech-redmi-mi-redmi-9a-soft-silicone-electroplated-6d-chrome-flexible-bumper-back-cover-case-for-mi-redmi-9a-mi-redmi-9a-9i-9a-sport/p/4fy4we"></a>buy now</button>h
+		   <button class="b">Add2Cart</button>
+		   </figcaption>
+	   </figure>
+	   <figure>
+		   <img src="https://images.meesho.com/images/products/175866377/0ukvz_512.webp" alt="black shirt">
+		   <figcaption><br>blue men sweatshirt<br>250 rupees only<br>rating:4.3*<br>40% discount<br>
+		   <button><a href="https://www.meesho.com/trendy-graceful-men-sweatshirts/p/2wpfd5">buy now</a></button>
+		   <button class="b"><a href="https://www.meesho.com/trendy-graceful-men-sweatshirts/p/2wpfd5">add2cart</a></button>
+	   
+		   </figcaption>
+		   </figure>
+		   <figure>
+			<img src="https://images.meesho.com/images/products/83163834/uf4p7_512.webp" alt="black shirt">
+			<figcaption>blue sweat shirt<br>251 rupees only<br>rating:3.8*<br>
+			 <button><a href="https://www.meesho.com/mens-blue-colorblocked-hooded-sweatshirt-on-sale/p/1dihmi">buy now</a></button>
+			<button class="b"><a href="https://www.meesho.com/mens-blue-colorblocked-hooded-sweatshirt-on-sale/p/1dihmi">Add2Cart</a></button>
+			</figcaption>
+		   </figure>
+		   <figure>
+			<img src="https://images.meesho.com/images/products/358795891/ho6lv_512.webp" alt="black shirt">
+			<figcaption>lahriya gown<br>550 rupees only<br>rating:4.3*<br>
+			<button><a href="https://www.meesho.com/new-georgette-lahriya-gown-for-women-with-dupatta/p/5xm8oj">buy now</a></button>
+			<button class="b"><a href="https://www.meesho.com/new-georgette-lahriya-gown-for-women-with-dupatta/p/5xm8oj">add2cart</a></button>
+			</figcaption>
+		   </figure>
+		   <figure>
+			   <img src="https://images.meesho.com/images/products/60422990/hhmpo_512.webp" alt="black shirt">
+			   <figcaption>371 rupees only<br>women kurta ratin:3.9*<br>
+			   <button><a href="https://www.meesho.com/trandy-border-yoke-placemet-printed-pink-flared-kurti/p/zz2oe">buy now</a></button>
+			   <button class="b"><a href="https://www.meesho.com/trandy-border-yoke-placemet-printed-pink-flared-kurti/p/zz2oe">Add2Cart</a></button>
+			   </figcaption>
+			   </figure>
+		   <figure>
+			<img src="https://images.meesho.com/images/products/328829956/hqtmi_512.webp" alt="black shirt">
+			<figcaption><br>sun glasses<br>137 rupees only<br>rating:4.2*<br>deal of the day<br>
+			   <button><a href="https://www.meesho.com/new-trendy-unisex-sunglasses-black-and-white-frame/p/5frytg">buy now</a></button>
+			   <button class="b"><a href="https://www.meesho.com/new-trendy-unisex-sunglasses-black-and-white-frame/p/5frytg">Add2Cart</a></button>
+			   </figcaption>		
+		   </figure>
+		   <figure>
+			   <img src="https://images.meesho.com/images/products/268651598/olbvf_512.webp" alt="black shirt">
+			   <figcaption><br>mi 9a/9i series pouch<br>170 rupees only<br>rating:4.2*<br>50% off <br>
+			   <button><a href="https://www.meesho.com/jitech-redmi-mi-redmi-9a-soft-silicone-electroplated-6d-chrome-flexible-bumper-back-cover-case-for-mi-redmi-9a-mi-redmi-9a-9i-9a-sport/p/4fy4we"></a>buy now</button>h
+			   <button class="b">Add2Cart</button>
+			   </figcaption>
+		   </figure>
+		   <figure>
+			   <img src="https://images.meesho.com/images/products/175866377/0ukvz_512.webp" alt="black shirt">
+			   <figcaption><br>blue men sweatshirt<br>250 rupees only<br>rating:4.3*<br>40% discount<br>
+			   <button><a href="https://www.meesho.com/trendy-graceful-men-sweatshirts/p/2wpfd5">buy now</a></button>
+			   <button class="b"><a href="https://www.meesho.com/trendy-graceful-men-sweatshirts/p/2wpfd5">add2cart</a></button>
+		   
+			   </figcaption>
+			   </figure>
+		   
+	   
+</div>
+</div>
+</div>
+
+<div class="container">
+    <div class="width-25">
+      <h2>ACCOUNT DETAILS</h2>      
+	  <ul class="menu">
+        <li><a href="n.html">Home</a></li>
+        <li><a href="about.html">About us</a></li>
+        
+      </ul>
+    </div>
+   
+    <div class="width-25">
+      <h2>QUICK LINKS</h2>
+      <ul class="menu">
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html">register</a></li>
+        <li><a href="n.html">home</a></li>
+		<li><a href="games.html">games</a></li>
+        </ul>
+    </div>
+    <div class="width-25">
+      <h2>GET IN TOUCH</h2>
+      <ul class="menu">
+        <li><i class="fa" aria-hidden="true"></i> E-MAIL:<a href="https://www.nareshpattapu686@gmail.com" class="footer-e-mail"> nareshpattapu686@gmail.com</a></li>
+        <li><i class="fa" aria-hidden="true"></i> WHATS-APP: +91 9848240441</li>
+        <li><i class="fa" aria-hidden="true"></i> CONTACT NO.: +91 9848240441</li>
+        <li><i class="fa" aria-hidden="true"></i> WEBSITE:<a href="#" class="footer-website"> https://www.allinone.com</a></li>
+   
+         </ul>
+    </div>
+	<div class="width-25">
+		<h2>GET IN TOUCH</h2>
+		<ul class="menu">
+	    <li><a href="https://www.facebook.com/profile.php?id=61552969239195&mibextid=ViGcVu"><img class="social" src="facebook.jpg"></a></li>
+        <li><a href="https://instagram.com/shopping_wall98?igshid=MzMyNGUyNmU2YQ=="><img class="social"src="instagram.jpg"></a></li>
+        <li><a href="https://www.threads.net/@shopping_wall98"><img  class="social" src="x.jpg"></a></li>
+        <li><a href="https://youtube.com/@shopping_wall?si=smnIDza7WwPmzbWp"><img  class="social" src="youtube.jpg"></a></li>
+      </ul>
+   </div>
+</div>
+
+<div class="footer">
+  <p class="footer">Copyright Â© 2023. All Rights Reserved<br>.developed by naresh,kanchana</p>
+</div>
+    
+</body>
+
+</html>
